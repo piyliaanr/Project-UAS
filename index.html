@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-Carrental </title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.css" />
+    <link rel="stylesheet" href="dist/css/carousel.css">
+</head>
+
+<body class="hold-transition sidebar-collapse layout-top-nav">
+    <div class="wrapper">
+        <!-- Navbar -->
+
+        <div class="main-header navbar navbar-expand-md navbar-light navbar-info d-flex justify-content-center">
+            <a href="index.html" class="navbar-brand">
+                <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                    style="opacity: 0.8" />
+                <span class="brand-text font-weight-white text-light">E-Carrental</span>
+            </a>
+        </div>
+        <nav class="main-header navbar navbar-expand-md navbar-dark navbar-info">
+            <div class="container">
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-3 " id="navbarCollapse">
+                    <!-- Left navbar links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-light">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="produk_layanan.html" class="nav-link text-light">Produk & Layanan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="form_booking.html" class="nav-link text-light">Booking</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="#" class="nav-link text-light">Berita</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light">Tentang kami</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Right navbar links -->
+                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
+                    <li class="nav-item">
+                        <form class="form-inline ml-0 ml-md-3">
+                            <div class="input-group input-group-sm">
+                                <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-navbar" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a href="/xampp/htdocs/webku-ti04/uas/AdminLTE-3.2.0/login.html" class="btn btn-primary btn-sm">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /.navbar -->
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+
+            <!-- Main content -->
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 mt-3">
+                            <div class="card card-info card-outline">
+                                <div class="card-header">
+                                    <h1 class="card-title">Selamat Datang!</h1>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        E-CarRental menawarkan solusi mudah dan hemat untuk kebutuhan transportasi Anda.
+                                        Kami menyediakan beragam pilihan mobil yang dapat disewa sesuai kebutuhan Anda,
+                                        mulai dari mobil city car hingga mobil mewah.
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-4 d-flex flex-column">
+                                            <div class="font-weight-bold">
+                                                <h3 class="card-title">Kendaraan Baru</h3>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="dist/img/kendaraanbaru.jpg" class="border" alt="" width="87"
+                                                    height="90">
+                                                <span class="ml-2 text-justify">Sewa mobil baru di E-carrental,
+                                                    kenyamanan berkendara tanpa batas</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 d-flex flex-column">
+                                            <div class="font-weight-bold">
+                                                <h3 class="card-title">Booking Rental</h3>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="dist/img/booking.jpg" class="border" alt="" width="87"
+                                                    height="90">
+                                                <span class="ml-2 text-justify">Booking mudah dan cepat di E-CarRental,
+                                                    sewa mobil impianmu sekarang</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 d-flex flex-column">
+                                            <div class="font-weight-bold">
+                                                <h3 class="card-title">Pembayaran Nyaman</h3>
+                                            </div>
+                                            <div class="d-flex">
+                                                <img src="dist/img/payment.jpg" class="border" alt="" width="87"
+                                                    height="90">
+                                                <span class="ml-2 text-justify">Pembayaran mudah dan aman di
+                                                    E-CarRental, sewa mobil tanpa khawatir</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card shadow">
+                                <div class="card-header">
+                                    <h1 class="card-title">Koleksi Kendaraan Kami</h1>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card d-flex flex-column align-items-center">
+                                                <div class="pt-2 card-title">Sport Car</div>
+                                                <div class="card-img">
+                                                    <img src="dist/img/pajero.png" class="img-thumbnail" alt="">
+                                                </div>
+                                                <div class="card-body pt-2">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="del mr-2"><span class="text-dark"><i
+                                                                    class="fas fa-users">6</i></span>
+                                                        </div>
+                                                        <div class="font-weight-bold">Rp.500k/hari</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card d-flex flex-column align-items-center">
+                                                <div class="pt-2 card-title">Bis Wisata</div>
+                                                <div class="card-img">
+                                                    <img src="dist/img/bus.webp" class="img-thumbnail" alt="">
+                                                </div>
+                                                <div class="card-body pt-2">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="del mr-2"><span class="text-dark"><i
+                                                                    class="fas fa-users">60</i></span>
+                                                        </div>
+                                                        <div class="font-weight-bold">Rp.600k/hari</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="card d-flex flex-column align-items-center">
+                                                <div class="pt-2 card-title">Sedan Eksekutif</div>
+                                                <div class="card-img">
+                                                    <img src="dist/img/sedan.webp" class="img-thumbnail py-3" alt="">
+                                                </div>
+                                                <div class="card-body pt-2">
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="del mr-2"><span class="text-dark"><i
+                                                                    class="fas fa-users">4</i></span>
+                                                        </div>
+                                                        <div class="font-weight-bold">Rp.1000k/hari</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow">
+                                <div class="card-header">
+                                    <h1 class="card-title">Berita</h1>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-6 d-flex flex-column border">
+                                            <div class="d-flex">
+                                                <img src="dist/img/berita1.jpg" class="border" height="90">
+                                                <span class="ml-2 text-justify">Sambut Era Biodiesel B35, Hino Bilang
+                                                    Produknya Enggak Bakal Ada Masalah, Ini Alasannya</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex flex-column border">
+                                            <div class="d-flex">
+                                                <img src="dist/img/berita3.jpg" class="border" height="90">
+                                                <span class="ml-2 text-justify">Perluas Layanan Kendaraan Komersial,
+                                                    Bridgestone Truck Tire Center Autopit Hadir di Cirebon
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex flex-column mt-3 border">
+                                            <div class="d-flex">
+                                                <img src="dist/img/berita2.jpg" class="border" height="90">
+                                                <span class="ml-2 text-justify">Mengendarai Kendaraan Komersial Harus
+                                                    Ekstra Hati-hati, Disiplin di Jalan Raya yang Utama
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 d-flex flex-column mt-3 border">
+                                            <div class="d-flex">
+                                                <img src="dist/img/berita4.jpg" class="border" height="90">
+                                                <span class="ml-2 text-justify">Toyota dan Isuzu Resmi Jalin Kerja Sama,
+                                                    Ingin Panaskan Persaingan Pasar Kendaraan Komersial Dunia
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <div class="card card-info card-outline">
+                                <div class="card-header">
+                                    <h1 class="card-title">
+                                        Kategori Produk
+                                    </h1>
+                                </div>
+                                <div class="list-group">
+                                    <button type="button" class="list-group-item list-group-item-action">Bus
+                                        Wisata</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Minibus
+                                        Keluarga</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Sedan
+                                        Eksekutif</button>
+                                    <button type="button" class="list-group-item list-group-item-action">Mobil
+                                        Ekspedisi</button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h1 class="card-title">
+                                        Tag Populer
+                                    </h1>
+                                </div>
+                                <div class="card-body">
+                                    <button class="btn btn-info btn-sm mr-2 mt-2">harga</button>
+                                    <button class="btn btn-info btn-sm mr-2 mt-2">FI</button>
+                                    <button class="btn btn-info btn-sm mr-2 mt-2">Booking</button>
+                                    <button class="btn btn-info btn-sm mr-2 mt-2">Uang Muka</button>
+                                    <button class="btn btn-info btn-sm mr-2 mt-2">Jumlah Booking</button><button
+                                        class="btn btn-info btn-sm mr-2 mt-2">Harga Rental</button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="dist/img/promo.webp" alt="" class="border img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer" style="text-align: center;">
+        <!-- To the right -->
+        <!-- Default to the left -->
+        <strong>Copyright &copy; 2023
+            <a href="#">E-CarRental</a>.</strong>
+        All rights reserved.
+    </footer>
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- REQUIRED SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ("WebSocket" in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (
+                            (elem.href && typeof rel != "string") ||
+                            rel.length == 0 ||
+                            rel.toLowerCase() == "stylesheet"
+                        ) {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                            elem.href =
+                                url +
+                                (url.indexOf("?") >= 0 ? "&" : "?") +
+                                "_cacheOverride=" +
+                                new Date().valueOf();
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol =
+                    window.location.protocol === "http:" ? "ws://" : "wss://";
+                var address =
+                    protocol + window.location.host + window.location.pathname + "/ws";
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == "reload") window.location.reload();
+                    else if (msg.data == "refreshcss") refreshCSS();
+                };
+                if (
+                    sessionStorage &&
+                    !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+                ) {
+                    console.log("Live reload enabled.");
+                    sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+                }
+            })();
+        } else {
+            console.error(
+                "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+            );
+        }
+      // ]]>
+    </script>
+</body>
+
+</html>
